@@ -1,0 +1,83 @@
+.box{
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 5px 5px red;
+}
+.box1{
+
+border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 5px red;
+    text-shadow: 5px 5px 2px red;
+    
+}
+.box2{
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 5px red;
+    text-shadow: 5px 5px 2px red; 
+    /* transition: width 2s, height 2s, transform 2s; */
+   /* transition:width 2s, height 2s, ease-out, 2s; */
+   transition:transform 5s;
+   
+    /* background-image: linear-gradient(90deg, pink, purple);
+        text-align: center; */
+}
+
+.box2:hover{
+    width: 300px;
+    height: 300px;
+    /* transform: rotate(180deg); */
+    /* transform: rotatex(60deg); */
+    /* transform: skewX(180deg); */
+    transform: translateX(500px);
+}
+
+.box3{
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 5px red;
+    text-shadow: 5px 5px 2px red; 
+    /* transition: width 2s, height 2s, transform 2s; */
+   /* transition:width 2s, height 2s, ease-out, 2s; */
+   transition:transform 5s;
+   
+    /* background-image: linear-gradient(90deg, pink, purple);
+        text-align: center; */
+}
+
+.box3:hover{
+    width: 300px;
+    height: 300px;
+    /* transform: rotate(180deg); */
+    /* transform: rotatex(60deg); */
+    transform: rotate(360deg);
+    
+}
+
+.box4{
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 5px red;
+    text-shadow: 5px 5px 2px red; 
+    /* transition: width 2s, height 2s, transform 2s; */
+   transition:width 2s, height 2s;
+   /* transition:transform 5s; */
+   
+    background-image: linear-gradient(90deg, pink, purple);
+        text-align: center;
+}
+
+.box4:hover{
+    width: 400px;
+    /* height: 300px; */
+    /* transform: rotate(180deg); */
+    /* transform: rotatex(60deg); */
+    /* transform: rotate(360deg); */
+    
+}
